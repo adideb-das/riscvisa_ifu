@@ -1,0 +1,184 @@
+$date
+	Wed May 17 12:15:00 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module InstructionFetchUnit_TestBench $end
+$var wire 1 ! pOutPC $end
+$var wire 1 " pOutInstr $end
+$var wire 1 # pOutData $end
+$var wire 1 $ pDataLoaded $end
+$var wire 1 % pAddr $end
+$var reg 1 & pAluOut $end
+$var reg 1 ' pClk $end
+$var reg 1 ( pDataValid $end
+$var reg 1 ) pIRWrite $end
+$var reg 1 * pInMemData $end
+$var reg 1 + pInPC $end
+$var reg 1 , pIorD $end
+$var reg 1 - pReset $end
+$var reg 7 . sim_time [6:0] $end
+$var integer 32 / sim_duration [31:0] $end
+$scope module DUT $end
+$var wire 1 & pAluOut $end
+$var wire 1 ' pClk $end
+$var wire 1 $ pDataLoaded $end
+$var wire 1 ( pDataValid $end
+$var wire 1 ) pIRWrite $end
+$var wire 1 * pInMemData $end
+$var wire 1 + pInPC $end
+$var wire 1 , pIorD $end
+$var wire 1 - pReset $end
+$var wire 1 ! pOutPC $end
+$var wire 1 " pOutInstr $end
+$var wire 1 # pOutData $end
+$var wire 1 % pAddr $end
+$var reg 32 0 addr [31:0] $end
+$var reg 1 1 dataLoaded $end
+$var reg 32 2 outData [31:0] $end
+$var reg 32 3 outInstr [31:0] $end
+$var reg 32 4 outPC [31:0] $end
+$var reg 32 5 pc [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 5
+bx 4
+b0 3
+b0 2
+x1
+b0 0
+b111110100 /
+b0 .
+1-
+x,
+x+
+x*
+x)
+x(
+0'
+x&
+0%
+x$
+0#
+0"
+x!
+$end
+#5
+0$
+01
+b1 .
+1'
+#10
+0'
+1)
+1(
+0,
+0*
+0&
+0+
+0-
+#15
+x%
+1$
+11
+bx 0
+b0 5
+b10 .
+1'
+#20
+0'
+#25
+0!
+0%
+b100 4
+b0 0
+b11 .
+1'
+#30
+0'
+0)
+1,
+1*
+#35
+1#
+b1 2
+b100 .
+1'
+#40
+0'
+#45
+b101 .
+1'
+#50
+0'
+1)
+0*
+#55
+0#
+b0 2
+b110 .
+1'
+#60
+0'
+#65
+b111 .
+1'
+#70
+0'
+#75
+b1000 .
+1'
+#80
+0'
+#85
+b1001 .
+1'
+#90
+0'
+#95
+b1010 .
+1'
+#100
+0'
+#105
+b1011 .
+1'
+#110
+0'
+#115
+b1100 .
+1'
+#120
+0'
+#125
+b1101 .
+1'
+#130
+0'
+#135
+b1110 .
+1'
+#140
+0'
+#145
+b1111 .
+1'
+#150
+0'
+#155
+b10000 .
+1'
+#160
+0'
+#165
+b10001 .
+1'
+#170
+0'
