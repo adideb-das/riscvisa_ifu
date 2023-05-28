@@ -8,8 +8,10 @@ In this repository, we will design an instruction fetch unit with the help of ve
 
 ## Deployment
 
-To deploy this project first download the repository and navigate to the folder via VsCode.
-
+To deploy this project first clone the repository and navigate to the folder via VsCode.
+```
+git clone https://github.com/rebek-007/riscvisa_ifu.git
+```
 Make sure you have Icarus Verilog installed as your verilog simulator.
 
 Open a new terminal and paste the following command
